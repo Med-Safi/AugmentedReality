@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CoinCollector : MonoBehaviour
 {
     public static int score = 0;
+    public AudioSource audioSource;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,6 +15,7 @@ public class CoinCollector : MonoBehaviour
             Destroy(other.gameObject); 
             score++; 
             UpdateScoreUI();
+            audioSource.Play();
         }
     }
 

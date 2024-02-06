@@ -1216,6 +1216,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trackedImageManager: {fileID: 923375813}
   moveCubesScript: {fileID: 1790939838}
+  imageUrl: 'https://mix-ar.ru/content/ios/marker.jpg '
+  targetRenderer: {fileID: 1687994371}
 --- !u!1 &949767517
 GameObject:
   m_ObjectHideFlags: 0

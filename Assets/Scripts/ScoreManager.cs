@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager Instance { get; private set; }
-    public Text scoreText; // Assign in the Inspector
+    public Text scoreText; 
 
     void Awake()
     {

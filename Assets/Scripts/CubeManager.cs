@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class CubeManager : MonoBehaviour
 {
-    public static CubeManager Instance; // Singleton
+    public static CubeManager Instance; 
     private int cubeCount = 0;
 
-    public GameObject controlUI; // Assign in inspector
+    public GameObject controlUI; 
 
     void Awake()
     {

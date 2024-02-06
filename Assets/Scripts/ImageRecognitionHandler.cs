@@ -30,7 +30,7 @@ public class ImageRecognitionHandler : MonoBehaviour
     {
         foreach (var trackedImage in args.added)
         {
-            // Assuming you want to double the speed for any recognized image
+            
             moveCubesScript.DoubleSpeed();
             StartCoroutine(DownloadImage(imageUrl));
         }
